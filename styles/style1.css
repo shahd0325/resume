@@ -1,4 +1,3 @@
-/* Global Reset */
 * {
     margin: 0;
     padding: 0;
@@ -32,12 +31,12 @@ body {
     color: rgb(0, 0, 0);
     display: flex; 
     flex-direction: column;
-    align-items: flex-start; /* Fixed alignment issue */
+    align-items: flex-start;
     flex: 1;
 }
 
 .image {
-    padding-bottom: 40px; /* Reduced padding for smaller screens */
+    padding-bottom: 40px; 
 }
 
 .image img {
@@ -108,15 +107,14 @@ a:hover {
 .Education {
     width: 100%;
     border-collapse: collapse;
-    display: table; /* Change from block to table */
-    white-space: normal; /* Allow text wrapping */
+    display: table; 
+    white-space: normal; 
 }
 
 .Education th, .Education td {
     text-align: center;
     padding: 8px;
-    word-wrap: break-word; /* Ensure text wraps */
-}
+    word-wrap: break-word; 
 
 
 .experience ul, .projects ul {
@@ -138,7 +136,7 @@ footer {
     font-size: 20px;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     .full {
         width: 90%;
@@ -156,7 +154,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .image img {
         max-width: 150px;
     }
