@@ -171,11 +171,11 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 560px) {
     .full {
-        width: 95%;
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        display: contents;
+        display: block;
     }
     
     .left, .right {
