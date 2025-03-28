@@ -154,7 +154,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .image img {
         max-width: 150px;
     }
@@ -164,5 +164,6 @@ footer {
     footer {
         font-size: 16px;
         padding: 5px;
+        background-color: rgb(4, 150, 60);
     }
 }
