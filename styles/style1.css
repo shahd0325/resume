@@ -31,7 +31,7 @@ body {
     color: rgb(0, 0, 0);
     display: flex; 
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; 
     flex: 1;
 }
 
@@ -115,6 +115,7 @@ a:hover {
     text-align: center;
     padding: 8px;
     word-wrap: break-word; 
+}
 
 
 .experience ul, .projects ul {
@@ -136,7 +137,6 @@ footer {
     font-size: 20px;
 }
 
-
 @media screen and (max-width: 768px) {
     .full {
         width: 90%;
@@ -154,7 +154,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .image img {
         max-width: 150px;
     }
