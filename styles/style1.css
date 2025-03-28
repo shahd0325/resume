@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.full {
+    width: 70%;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.left {
+    background-color: rgb(108, 194, 215);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+    flex: 1;
+}
+
+.image {
+    padding-bottom: 40px; 
+}
+
+.image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.right {
+    background-color: rgb(162, 202, 206);
+    padding: 20px;
+    flex: 2;
+}
+
+h2 {
+    background-color: rgb(4, 96, 150);
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.contact a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: rgb(0, 55, 255);
+    text-decoration: underline;
+}
+
+.skills ul {
+    list-style-type: disc; 
+    padding-left: 20px;
+}
+
+.skills ul li {
+    padding: 5px 0; 
+}
+
+a {
+    color: rgb(0, 55, 225);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 55, 255);
+    text-decoration: underline;
+}
+
+.Education {
+    width: 100%;
+    border-collapse: collapse;
+    display: table; 
+    white-space: normal; 
+}
+
+.Education th, .Education td {
+    text-align: center;
+    padding: 8px;
+    word-wrap: break-word; 
+}
+
+
+.experience ul, .projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience ul li, .projects ul li {
+    padding: 5px 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(4, 150, 60);
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .full {
+        width: 90%;
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+        padding: 15px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .skills ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .image img {
+        max-width: 150px;
+    }
+    .Education {
+        font-size: 14px;
+    }
+    footer {
+        font-size: 16px;
+        padding: 5px;
+        background-color: rgb(4, 150, 60);
+    }
+}
